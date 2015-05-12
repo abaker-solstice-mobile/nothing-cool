@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E70777491B0001FA006A4741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70777481B0001FA006A4741 /* AppDelegate.swift */; };
+		E707774E1B0001FA006A4741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E707774C1B0001FA006A4741 /* Main.storyboard */; };
+		E70777501B0001FA006A4741 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E707774F1B0001FA006A4741 /* Images.xcassets */; };
+		E70777531B0001FA006A4741 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E70777511B0001FA006A4741 /* LaunchScreen.xib */; };
+		E707775F1B0001FB006A4741 /* PlanechaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707775E1B0001FB006A4741 /* PlanechaseTests.swift */; };
+		E70777691B0004EA006A4741 /* PlanesScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70777681B0004EA006A4741 /* PlanesScrollViewController.swift */; };
+		E707776D1B000D49006A4741 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707776C1B000D49006A4741 /* CollectionViewController.swift */; };
+		E7D0A7F51B0126CC00959DA4 /* PlanesDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0A7F41B0126CC00959DA4 /* PlanesDeck.swift */; };
+		E7D0A7F71B0128E100959DA4 /* PlaneCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0A7F61B0128E100959DA4 /* PlaneCard.swift */; };
+		E7D0A7F91B017F2700959DA4 /* PlaneChaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0A7F81B017F2700959DA4 /* PlaneChaseViewController.swift */; };
+		E7D0A7FB1B019B1900959DA4 /* DeckViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0A7FA1B019B1900959DA4 /* DeckViewDelegate.swift */; };
+		E7D0A8001B019B5500959DA4 /* PageDisplayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0A7FF1B019B5500959DA4 /* PageDisplayDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E70777591B0001FB006A4741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E707773B1B0001FA006A4741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70777421B0001FA006A4741;
+			remoteInfo = Planechase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E70777431B0001FA006A4741 /* Planechase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planechase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70777471B0001FA006A4741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70777481B0001FA006A4741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E707774D1B0001FA006A4741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E707774F1B0001FA006A4741 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E70777521B0001FA006A4741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E70777581B0001FB006A4741 /* PlanechaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanechaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E707775D1B0001FB006A4741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E707775E1B0001FB006A4741 /* PlanechaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanechaseTests.swift; sourceTree = "<group>"; };
+		E70777681B0004EA006A4741 /* PlanesScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanesScrollViewController.swift; sourceTree = "<group>"; };
+		E707776C1B000D49006A4741 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		E7D0A7F41B0126CC00959DA4 /* PlanesDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanesDeck.swift; sourceTree = "<group>"; };
+		E7D0A7F61B0128E100959DA4 /* PlaneCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneCard.swift; sourceTree = "<group>"; };
+		E7D0A7F81B017F2700959DA4 /* PlaneChaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneChaseViewController.swift; sourceTree = "<group>"; };
+		E7D0A7FA1B019B1900959DA4 /* DeckViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckViewDelegate.swift; sourceTree = "<group>"; };
+		E7D0A7FF1B019B5500959DA4 /* PageDisplayDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageDisplayDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E70777401B0001FA006A4741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70777551B0001FB006A4741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E707773A1B0001FA006A4741 = {
+			isa = PBXGroup;
+			children = (
+				E70777451B0001FA006A4741 /* Planechase */,
+				E707775B1B0001FB006A4741 /* PlanechaseTests */,
+				E70777441B0001FA006A4741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E70777441B0001FA006A4741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E70777431B0001FA006A4741 /* Planechase.app */,
+				E70777581B0001FB006A4741 /* PlanechaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70777451B0001FA006A4741 /* Planechase */ = {
+			isa = PBXGroup;
+			children = (
+				E7D0A7FE1B019B4000959DA4 /* Protocols */,
+				E7D0A7FD1B019B3400959DA4 /* Models */,
+				E7D0A7FC1B019B2600959DA4 /* Controllers */,
+				E707774C1B0001FA006A4741 /* Main.storyboard */,
+				E707774F1B0001FA006A4741 /* Images.xcassets */,
+				E70777461B0001FA006A4741 /* Supporting Files */,
+				E707776C1B000D49006A4741 /* CollectionViewController.swift */,
+			);
+			path = Planechase;
+			sourceTree = "<group>";
+		};
+		E70777461B0001FA006A4741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E70777511B0001FA006A4741 /* LaunchScreen.xib */,
+				E70777481B0001FA006A4741 /* AppDelegate.swift */,
+				E70777471B0001FA006A4741 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E707775B1B0001FB006A4741 /* PlanechaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				E707775E1B0001FB006A4741 /* PlanechaseTests.swift */,
+				E707775C1B0001FB006A4741 /* Supporting Files */,
+			);
+			path = PlanechaseTests;
+			sourceTree = "<group>";
+		};
+		E707775C1B0001FB006A4741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E707775D1B0001FB006A4741 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7D0A7FC1B019B2600959DA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7D0A7F81B017F2700959DA4 /* PlaneChaseViewController.swift */,
+				E70777681B0004EA006A4741 /* PlanesScrollViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E7D0A7FD1B019B3400959DA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7D0A7F41B0126CC00959DA4 /* PlanesDeck.swift */,
+				E7D0A7F61B0128E100959DA4 /* PlaneCard.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E7D0A7FE1B019B4000959DA4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E7D0A7FA1B019B1900959DA4 /* DeckViewDelegate.swift */,
+				E7D0A7FF1B019B5500959DA4 /* PageDisplayDelegate.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E70777421B0001FA006A4741 /* Planechase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70777621B0001FB006A4741 /* Build configuration list for PBXNativeTarget "Planechase" */;
+			buildPhases = (
+				E707773F1B0001FA006A4741 /* Sources */,
+				E70777401B0001FA006A4741 /* Frameworks */,
+				E70777411B0001FA006A4741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planechase;
+			productName = Planechase;
+			productReference = E70777431B0001FA006A4741 /* Planechase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E70777571B0001FB006A4741 /* PlanechaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70777651B0001FB006A4741 /* Build configuration list for PBXNativeTarget "PlanechaseTests" */;
+			buildPhases = (
+				E70777541B0001FB006A4741 /* Sources */,
+				E70777551B0001FB006A4741 /* Frameworks */,
+				E70777561B0001FB006A4741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E707775A1B0001FB006A4741 /* PBXTargetDependency */,
+			);
+			name = PlanechaseTests;
+			productName = PlanechaseTests;
+			productReference = E70777581B0001FB006A4741 /* PlanechaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E707773B1B0001FA006A4741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Aaron Baker";
+				TargetAttributes = {
+					E70777421B0001FA006A4741 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					E70777571B0001FB006A4741 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = E70777421B0001FA006A4741;
+					};
+				};
+			};
+			buildConfigurationList = E707773E1B0001FA006A4741 /* Build configuration list for PBXProject "Planechase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E707773A1B0001FA006A4741;
+			productRefGroup = E70777441B0001FA006A4741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E70777421B0001FA006A4741 /* Planechase */,
+				E70777571B0001FB006A4741 /* PlanechaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E70777411B0001FA006A4741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E707774E1B0001FA006A4741 /* Main.storyboard in Resources */,
+				E70777531B0001FA006A4741 /* LaunchScreen.xib in Resources */,
+				E70777501B0001FA006A4741 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70777561B0001FB006A4741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E707773F1B0001FA006A4741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E707776D1B000D49006A4741 /* CollectionViewController.swift in Sources */,
+				E7D0A7F51B0126CC00959DA4 /* PlanesDeck.swift in Sources */,
+				E7D0A8001B019B5500959DA4 /* PageDisplayDelegate.swift in Sources */,
+				E70777691B0004EA006A4741 /* PlanesScrollViewController.swift in Sources */,
+				E7D0A7F91B017F2700959DA4 /* PlaneChaseViewController.swift in Sources */,
+				E7D0A7FB1B019B1900959DA4 /* DeckViewDelegate.swift in Sources */,
+				E7D0A7F71B0128E100959DA4 /* PlaneCard.swift in Sources */,
+				E70777491B0001FA006A4741 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70777541B0001FB006A4741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E707775F1B0001FB006A4741 /* PlanechaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E707775A1B0001FB006A4741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70777421B0001FA006A4741 /* Planechase */;
+			targetProxy = E70777591B0001FB006A4741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E707774C1B0001FA006A4741 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E707774D1B0001FA006A4741 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E70777511B0001FA006A4741 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70777521B0001FA006A4741 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E70777601B0001FB006A4741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E70777611B0001FB006A4741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E70777631B0001FB006A4741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Planechase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E70777641B0001FB006A4741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Planechase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E70777661B0001FB006A4741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlanechaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planechase.app/Planechase";
+			};
+			name = Debug;
+		};
+		E70777671B0001FB006A4741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlanechaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planechase.app/Planechase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E707773E1B0001FA006A4741 /* Build configuration list for PBXProject "Planechase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70777601B0001FB006A4741 /* Debug */,
+				E70777611B0001FB006A4741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70777621B0001FB006A4741 /* Build configuration list for PBXNativeTarget "Planechase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70777631B0001FB006A4741 /* Debug */,
+				E70777641B0001FB006A4741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70777651B0001FB006A4741 /* Build configuration list for PBXNativeTarget "PlanechaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70777661B0001FB006A4741 /* Debug */,
+				E70777671B0001FB006A4741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E707773B1B0001FA006A4741 /* Project object */;
+}
